@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Dark / auth surface */
+  --color-df-bg: #050607;
+  --color-df-bg-2: #0b0e10;
+  --color-df-surface: rgba(255, 255, 255, 0.045);
+  --color-df-glass: rgba(255, 255, 255, 0.06);
+  --color-df-glass-border: rgba(255, 255, 255, 0.12);
+
+  /* Brand accent */
+  --color-df-lime: #c7f33a;
+  --color-df-lime-2: #b8e92f;
+
+  /* Dark theme text */
+  --color-df-text: #f5f5f2;
+  --color-df-muted: #9a9d98;
+  --color-df-ink: #151812;
+
+  /* Status */
+  --color-df-success: #7ed957;
+  --color-df-warning: #f4c95d;
+  --color-df-danger: #f27777;
+
+  /* Light dashboard surface */
+  --color-df-cream: #f7f8f3;
+  --color-df-card: rgba(255, 255, 255, 0.72);
+  --color-df-card-border: rgba(40, 45, 30, 0.08);
+  --color-df-lime-soft: #c7e84f;
+  --color-df-sage: #8fa878;
+  --color-df-lavender: #b8aedc;
+  --color-df-ink-2: #232a1c;
+  --color-df-muted-2: #6b7360;
+
+  /* Sidebar */
+  --color-df-sidebar: #252c1d;
+  --color-df-sidebar-2: #1c2216;
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .df-glass-dark {
+    background: rgba(15, 18, 18, 0.72);
+    border: 1px solid var(--color-df-glass-border);
+    backdrop-filter: blur(20px);
+  }
+
+  .df-glass-light {
+    background: var(--color-df-card);
+    border: 1px solid var(--color-df-card-border);
+    backdrop-filter: blur(18px);
+  }
+
+  .df-fade-in {
+    animation: df-fade-in 0.5s ease-out both;
+  }
+
+  .df-fade-up {
+    animation: df-fade-up 0.5s ease-out both;
+  }
+}
+
+@keyframes df-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes df-fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

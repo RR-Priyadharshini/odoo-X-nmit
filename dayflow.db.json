@@ -1,0 +1,839 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "employee_code": "ADM001",
+      "name": "Aditi Rao",
+      "email": "admin@dayflow.com",
+      "password_hash": "$2b$10$toUDzATMkgntO26kuJ6RNOL.P6HtNo/2JxvjLE7UwP7PKZ/KuUzx.",
+      "role": "admin",
+      "created_at": "2024-01-10T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "employee_code": "EMP101",
+      "name": "Aarav Sharma",
+      "email": "aarav@dayflow.com",
+      "password_hash": "$2b$10$shiWTGvR5uMhdpOBztqBwuhKsY0d9WGQrCb2lR0mE/bh5HwoBh03G",
+      "role": "employee",
+      "created_at": "2024-02-15T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "employee_code": "EMP102",
+      "name": "Priya Patel",
+      "email": "priya@dayflow.com",
+      "password_hash": "$2b$10$shiWTGvR5uMhdpOBztqBwuhKsY0d9WGQrCb2lR0mE/bh5HwoBh03G",
+      "role": "employee",
+      "created_at": "2024-03-01T09:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "employee_code": "EMP103",
+      "name": "Rohit Verma",
+      "email": "rohit@dayflow.com",
+      "password_hash": "$2b$10$shiWTGvR5uMhdpOBztqBwuhKsY0d9WGQrCb2lR0mE/bh5HwoBh03G",
+      "role": "employee",
+      "created_at": "2024-04-12T09:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "employee_code": "EMP104",
+      "name": "Ananya Iyer",
+      "email": "ananya@dayflow.com",
+      "password_hash": "$2b$10$shiWTGvR5uMhdpOBztqBwuhKsY0d9WGQrCb2lR0mE/bh5HwoBh03G",
+      "role": "employee",
+      "created_at": "2024-06-20T09:00:00.000Z"
+    },
+    {
+      "employee_code": "EMP105",
+      "name": "shre",
+      "email": "shre@gmail.com",
+      "password_hash": "$2b$10$7vyaI0EbQcwUZzcCP1G4Ye.YIZ8cJr6C7XAdyE.eHzj1o719D5PK6",
+      "role": "employee",
+      "created_at": "2026-08-22T10:37:46.790Z",
+      "id": 6
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "phone": "+91 98765 43210",
+      "address": "14th Floor, Skyline Towers, Indiranagar, Bengaluru",
+      "designation": "Head of People & Operations",
+      "department": "Human Resources",
+      "joining_date": "2024-01-10",
+      "profile_picture": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "phone": "+91 98234 56789",
+      "address": "42, Garden View Apts, Koramangala, Bengaluru",
+      "designation": "Senior Backend Engineer",
+      "department": "Engineering",
+      "joining_date": "2024-02-15",
+      "profile_picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "phone": "+91 98111 22334",
+      "address": "702, Palm Heights, HSR Layout Sector 4, Bengaluru",
+      "designation": "Product Design Lead",
+      "department": "Design",
+      "joining_date": "2024-03-01",
+      "profile_picture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "phone": "+91 97654 32190",
+      "address": "18, Residency Road, Shanthala Nagar, Bengaluru",
+      "designation": "Enterprise Account Executive",
+      "department": "Sales",
+      "joining_date": "2024-04-12",
+      "profile_picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "phone": "+91 99000 11223",
+      "address": "204, Green Glen Layout, Bellandur, Bengaluru",
+      "designation": "HR & Talent Partner",
+      "department": "Human Resources",
+      "joining_date": "2024-06-20",
+      "profile_picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "user_id": 6,
+      "phone": "9876543210",
+      "address": "Chennai",
+      "designation": "Software Engineer",
+      "department": "Engineering",
+      "joining_date": "2026-08-22",
+      "profile_picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "id": 6
+    }
+  ],
+  "attendance": [
+    {
+      "id": 54,
+      "employee_id": 1,
+      "date": "2026-08-22",
+      "check_in": "2026-08-22T08:30:00.000Z",
+      "check_out": null,
+      "status": "present"
+    },
+    {
+      "id": 53,
+      "employee_id": 5,
+      "date": "2026-08-22",
+      "check_in": "2026-08-22T08:45:00.000Z",
+      "check_out": null,
+      "status": "present"
+    },
+    {
+      "id": 52,
+      "employee_id": 3,
+      "date": "2026-08-22",
+      "check_in": "2026-08-22T09:20:00.000Z",
+      "check_out": null,
+      "status": "present"
+    },
+    {
+      "id": 51,
+      "employee_id": 2,
+      "date": "2026-08-22",
+      "check_in": "2026-08-22T09:05:00.000Z",
+      "check_out": "2026-08-22T10:02:39.083Z",
+      "status": "present"
+    },
+    {
+      "id": 50,
+      "employee_id": 1,
+      "date": "2026-08-21",
+      "check_in": "2026-08-21T08:50:00.000Z",
+      "check_out": "2026-08-21T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 49,
+      "employee_id": 5,
+      "date": "2026-08-21",
+      "check_in": "2026-08-21T08:58:00.000Z",
+      "check_out": "2026-08-21T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 48,
+      "employee_id": 4,
+      "date": "2026-08-21",
+      "check_in": "2026-08-21T10:05:00.000Z",
+      "check_out": "2026-08-21T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 47,
+      "employee_id": 3,
+      "date": "2026-08-21",
+      "check_in": "2026-08-21T09:25:00.000Z",
+      "check_out": "2026-08-21T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 46,
+      "employee_id": 2,
+      "date": "2026-08-21",
+      "check_in": "2026-08-21T09:12:00.000Z",
+      "check_out": "2026-08-21T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 45,
+      "employee_id": 1,
+      "date": "2026-08-20",
+      "check_in": "2026-08-20T08:50:00.000Z",
+      "check_out": "2026-08-20T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 44,
+      "employee_id": 5,
+      "date": "2026-08-20",
+      "check_in": "2026-08-20T08:58:00.000Z",
+      "check_out": "2026-08-20T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 43,
+      "employee_id": 4,
+      "date": "2026-08-20",
+      "check_in": "2026-08-20T10:05:00.000Z",
+      "check_out": "2026-08-20T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 42,
+      "employee_id": 3,
+      "date": "2026-08-20",
+      "check_in": "2026-08-20T09:25:00.000Z",
+      "check_out": "2026-08-20T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 41,
+      "employee_id": 2,
+      "date": "2026-08-20",
+      "check_in": "2026-08-20T09:12:00.000Z",
+      "check_out": "2026-08-20T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 40,
+      "employee_id": 1,
+      "date": "2026-08-19",
+      "check_in": "2026-08-19T08:50:00.000Z",
+      "check_out": "2026-08-19T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 39,
+      "employee_id": 5,
+      "date": "2026-08-19",
+      "check_in": "2026-08-19T08:58:00.000Z",
+      "check_out": "2026-08-19T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 38,
+      "employee_id": 4,
+      "date": "2026-08-19",
+      "check_in": "2026-08-19T10:05:00.000Z",
+      "check_out": "2026-08-19T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 37,
+      "employee_id": 3,
+      "date": "2026-08-19",
+      "check_in": "2026-08-19T09:25:00.000Z",
+      "check_out": "2026-08-19T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 36,
+      "employee_id": 2,
+      "date": "2026-08-19",
+      "check_in": "2026-08-19T09:12:00.000Z",
+      "check_out": "2026-08-19T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 35,
+      "employee_id": 1,
+      "date": "2026-08-18",
+      "check_in": "2026-08-18T08:50:00.000Z",
+      "check_out": "2026-08-18T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 34,
+      "employee_id": 5,
+      "date": "2026-08-18",
+      "check_in": "2026-08-18T08:58:00.000Z",
+      "check_out": "2026-08-18T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 33,
+      "employee_id": 4,
+      "date": "2026-08-18",
+      "check_in": "2026-08-18T10:05:00.000Z",
+      "check_out": "2026-08-18T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 32,
+      "employee_id": 3,
+      "date": "2026-08-18",
+      "check_in": "2026-08-18T09:45:00.000Z",
+      "check_out": "2026-08-18T13:30:00.000Z",
+      "status": "half-day"
+    },
+    {
+      "id": 31,
+      "employee_id": 2,
+      "date": "2026-08-18",
+      "check_in": "2026-08-18T09:12:00.000Z",
+      "check_out": "2026-08-18T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 30,
+      "employee_id": 1,
+      "date": "2026-08-17",
+      "check_in": "2026-08-17T08:50:00.000Z",
+      "check_out": "2026-08-17T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 29,
+      "employee_id": 5,
+      "date": "2026-08-17",
+      "check_in": "2026-08-17T08:58:00.000Z",
+      "check_out": "2026-08-17T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 28,
+      "employee_id": 4,
+      "date": "2026-08-17",
+      "check_in": "2026-08-17T10:05:00.000Z",
+      "check_out": "2026-08-17T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 27,
+      "employee_id": 3,
+      "date": "2026-08-17",
+      "check_in": "2026-08-17T09:25:00.000Z",
+      "check_out": "2026-08-17T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 26,
+      "employee_id": 2,
+      "date": "2026-08-17",
+      "check_in": "2026-08-17T09:12:00.000Z",
+      "check_out": "2026-08-17T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 25,
+      "employee_id": 1,
+      "date": "2026-08-14",
+      "check_in": "2026-08-14T08:50:00.000Z",
+      "check_out": "2026-08-14T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 24,
+      "employee_id": 5,
+      "date": "2026-08-14",
+      "check_in": "2026-08-14T08:58:00.000Z",
+      "check_out": "2026-08-14T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 23,
+      "employee_id": 4,
+      "date": "2026-08-14",
+      "check_in": "2026-08-14T10:05:00.000Z",
+      "check_out": "2026-08-14T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 22,
+      "employee_id": 3,
+      "date": "2026-08-14",
+      "check_in": "2026-08-14T09:25:00.000Z",
+      "check_out": "2026-08-14T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 21,
+      "employee_id": 2,
+      "date": "2026-08-14",
+      "check_in": "2026-08-14T09:12:00.000Z",
+      "check_out": "2026-08-14T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 20,
+      "employee_id": 1,
+      "date": "2026-08-13",
+      "check_in": "2026-08-13T08:50:00.000Z",
+      "check_out": "2026-08-13T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 19,
+      "employee_id": 5,
+      "date": "2026-08-13",
+      "check_in": "2026-08-13T08:58:00.000Z",
+      "check_out": "2026-08-13T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 18,
+      "employee_id": 4,
+      "date": "2026-08-13",
+      "check_in": "2026-08-13T10:05:00.000Z",
+      "check_out": "2026-08-13T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 17,
+      "employee_id": 3,
+      "date": "2026-08-13",
+      "check_in": "2026-08-13T09:25:00.000Z",
+      "check_out": "2026-08-13T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 16,
+      "employee_id": 2,
+      "date": "2026-08-13",
+      "check_in": "2026-08-13T09:12:00.000Z",
+      "check_out": "2026-08-13T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 15,
+      "employee_id": 1,
+      "date": "2026-08-12",
+      "check_in": "2026-08-12T08:50:00.000Z",
+      "check_out": "2026-08-12T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 14,
+      "employee_id": 5,
+      "date": "2026-08-12",
+      "check_in": "2026-08-12T08:58:00.000Z",
+      "check_out": "2026-08-12T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 13,
+      "employee_id": 4,
+      "date": "2026-08-12",
+      "check_in": "2026-08-12T10:05:00.000Z",
+      "check_out": "2026-08-12T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 12,
+      "employee_id": 3,
+      "date": "2026-08-12",
+      "check_in": "2026-08-12T09:25:00.000Z",
+      "check_out": "2026-08-12T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 11,
+      "employee_id": 2,
+      "date": "2026-08-12",
+      "check_in": "2026-08-12T09:12:00.000Z",
+      "check_out": "2026-08-12T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 10,
+      "employee_id": 1,
+      "date": "2026-08-11",
+      "check_in": "2026-08-11T08:50:00.000Z",
+      "check_out": "2026-08-11T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 9,
+      "employee_id": 5,
+      "date": "2026-08-11",
+      "check_in": "2026-08-11T08:58:00.000Z",
+      "check_out": "2026-08-11T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 8,
+      "employee_id": 4,
+      "date": "2026-08-11",
+      "check_in": "2026-08-11T10:05:00.000Z",
+      "check_out": "2026-08-11T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 7,
+      "employee_id": 3,
+      "date": "2026-08-11",
+      "check_in": "2026-08-11T09:25:00.000Z",
+      "check_out": "2026-08-11T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 6,
+      "employee_id": 2,
+      "date": "2026-08-11",
+      "check_in": "2026-08-11T09:12:00.000Z",
+      "check_out": "2026-08-11T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 5,
+      "employee_id": 1,
+      "date": "2026-08-10",
+      "check_in": "2026-08-10T08:50:00.000Z",
+      "check_out": "2026-08-10T18:00:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 4,
+      "employee_id": 5,
+      "date": "2026-08-10",
+      "check_in": "2026-08-10T08:58:00.000Z",
+      "check_out": "2026-08-10T17:45:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 3,
+      "employee_id": 4,
+      "date": "2026-08-10",
+      "check_in": "2026-08-10T10:05:00.000Z",
+      "check_out": "2026-08-10T19:20:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 2,
+      "employee_id": 3,
+      "date": "2026-08-10",
+      "check_in": "2026-08-10T09:25:00.000Z",
+      "check_out": "2026-08-10T18:15:00.000Z",
+      "status": "present"
+    },
+    {
+      "id": 1,
+      "employee_id": 2,
+      "date": "2026-08-10",
+      "check_in": "2026-08-10T09:12:00.000Z",
+      "check_out": "2026-08-10T18:30:00.000Z",
+      "status": "present"
+    },
+    {
+      "employee_id": 6,
+      "date": "2026-08-22",
+      "check_in": "2026-08-22T10:37:54.170Z",
+      "check_out": null,
+      "status": "present",
+      "id": 55
+    }
+  ],
+  "leaves": [
+    {
+      "id": 5,
+      "employee_id": 5,
+      "leave_type": "paid",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-03",
+      "reason": "Attending annual SHRM Global HR Leadership Summit.",
+      "status": "pending",
+      "admin_comment": null,
+      "created_at": "2026-08-22T08:30:00.000Z",
+      "updated_at": null
+    },
+    {
+      "id": 1,
+      "employee_id": 2,
+      "leave_type": "paid",
+      "start_date": "2026-08-27",
+      "end_date": "2026-08-29",
+      "reason": "Family wedding ceremony in Jaipur, Rajasthan.",
+      "status": "pending",
+      "admin_comment": null,
+      "created_at": "2026-08-21T11:20:00.000Z",
+      "updated_at": null
+    },
+    {
+      "id": 4,
+      "employee_id": 4,
+      "leave_type": "unpaid",
+      "start_date": "2026-08-24",
+      "end_date": "2026-08-23",
+      "reason": "Unplanned extended personal travel.",
+      "status": "rejected",
+      "admin_comment": "Key client Q3 closing presentations scheduled during this window.",
+      "created_at": "2026-08-20T16:45:00.000Z",
+      "updated_at": "2026-08-21T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "employee_id": 3,
+      "leave_type": "sick",
+      "start_date": "2026-08-18",
+      "end_date": "2026-08-18",
+      "reason": "Severe migraine; requested half day afternoon rest.",
+      "status": "approved",
+      "admin_comment": "Approved. Please rest well and take care.",
+      "created_at": "2026-08-18T08:15:00.000Z",
+      "updated_at": "2026-08-18T09:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "employee_id": 4,
+      "leave_type": "paid",
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-15",
+      "reason": "Personal relocation and home setup.",
+      "status": "approved",
+      "admin_comment": "Approved as planned.",
+      "created_at": "2026-08-12T14:00:00.000Z",
+      "updated_at": "2026-08-13T10:00:00.000Z"
+    }
+  ],
+  "payroll": [
+    {
+      "id": 1,
+      "employee_id": 1,
+      "basic_salary": 160000,
+      "allowances": 35000,
+      "deductions": 18000,
+      "net_salary": 177000,
+      "updated_at": "2026-08-22T10:00:02.606Z"
+    },
+    {
+      "id": 2,
+      "employee_id": 2,
+      "basic_salary": 140000,
+      "allowances": 25000,
+      "deductions": 15000,
+      "net_salary": 150000,
+      "updated_at": "2026-08-22T10:00:02.606Z"
+    },
+    {
+      "id": 3,
+      "employee_id": 3,
+      "basic_salary": 125000,
+      "allowances": 20000,
+      "deductions": 12000,
+      "net_salary": 133000,
+      "updated_at": "2026-08-22T10:00:02.606Z"
+    },
+    {
+      "id": 4,
+      "employee_id": 4,
+      "basic_salary": 110000,
+      "allowances": 30000,
+      "deductions": 14000,
+      "net_salary": 126000,
+      "updated_at": "2026-08-22T10:00:02.606Z"
+    },
+    {
+      "id": 5,
+      "employee_id": 5,
+      "basic_salary": 85000,
+      "allowances": 15000,
+      "deductions": 9000,
+      "net_salary": 91000,
+      "updated_at": "2026-08-22T10:00:02.606Z"
+    },
+    {
+      "employee_id": 6,
+      "basic_salary": 60000,
+      "allowances": 10000,
+      "deductions": 5000,
+      "net_salary": 65000,
+      "updated_at": "2026-08-22T10:37:46.796Z",
+      "id": 6
+    }
+  ],
+  "signals": [
+    {
+      "id": "sig-1",
+      "severity": "high",
+      "title": "PENDING APPROVAL BOTTLENECK",
+      "what_happened": "2 leave applications are awaiting managerial review for > 24 hours.",
+      "why_it_matters": "Upcoming leaves fall within next 5 business days, impacting Engineering & HR sprint coverage.",
+      "underlying_data": [
+        {
+          "label": "Pending Requests",
+          "value": 2
+        },
+        {
+          "label": "Avg Wait Time",
+          "value": "28.4 hours"
+        },
+        {
+          "label": "Earliest Start Date",
+          "value": "2026-08-27"
+        },
+        {
+          "label": "Departments Affected",
+          "value": "Engineering, HR"
+        }
+      ],
+      "recommended_action": "Review pending leaves queue in Time Away panel to clear scheduling blockers.",
+      "department": "Company-wide",
+      "created_at": "2026-08-22T10:00:02.606Z"
+    },
+    {
+      "id": "sig-2",
+      "severity": "medium",
+      "title": "MORNING ATTENDANCE VELOCITY",
+      "what_happened": "80% of active workforce clocked in before 09:30 AM.",
+      "why_it_matters": "Strong operational pulse with 4 on-site check-ins recorded smoothly.",
+      "underlying_data": [
+        {
+          "label": "Present Today",
+          "value": "4 / 5"
+        },
+        {
+          "label": "Avg Check-In Time",
+          "value": "09:02 AM"
+        },
+        {
+          "label": "Unstarted Shift",
+          "value": "1 (Sales)"
+        }
+      ],
+      "recommended_action": "Monitor field sales team check-ins by 11:00 AM.",
+      "department": "Operations",
+      "created_at": "2026-08-22T10:00:02.606Z"
+    },
+    {
+      "id": "sig-3",
+      "severity": "low",
+      "title": "MONTHLY PAYROLL RECONCILIATION READY",
+      "what_happened": "All 5 employee salary structures and allowance deductions are in balance.",
+      "why_it_matters": "Total monthly net disbursement is projected at ₹6,77,000 with zero unallocated deductions.",
+      "underlying_data": [
+        {
+          "label": "Total Payroll",
+          "value": "₹6,77,000"
+        },
+        {
+          "label": "Total Employees",
+          "value": 5
+        },
+        {
+          "label": "Compliance Score",
+          "value": "100%"
+        }
+      ],
+      "recommended_action": "Lock monthly payroll batch prior to month-end payout cycle.",
+      "department": "Finance",
+      "created_at": "2026-08-22T10:00:02.606Z"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl-1787395074172",
+      "time": "04:07 PM",
+      "title": "shre clocked in",
+      "description": "Workday started at 04:07 PM.",
+      "category": "arrival",
+      "severity": "normal"
+    },
+    {
+      "id": "tl-1787395066810",
+      "time": "04:07 PM",
+      "title": "New Employee Onboarded: shre",
+      "description": "shre joined as Software Engineer (Engineering)",
+      "category": "arrival",
+      "severity": "positive"
+    },
+    {
+      "id": "tl-1787392959222",
+      "time": "03:32 PM",
+      "title": "Aarav Sharma clocked out",
+      "description": "Completed shift at 03:32 PM.",
+      "category": "milestone",
+      "severity": "positive"
+    },
+    {
+      "id": "tl-1",
+      "time": "08:30 AM",
+      "title": "Aditi Rao (Admin) started workday",
+      "description": "Operations console initiated with system status normal.",
+      "category": "arrival",
+      "severity": "normal"
+    },
+    {
+      "id": "tl-2",
+      "time": "08:45 AM",
+      "title": "Ananya Iyer clocked in",
+      "description": "HR Talent partner active at desk.",
+      "category": "arrival",
+      "severity": "normal"
+    },
+    {
+      "id": "tl-3",
+      "time": "09:05 AM",
+      "title": "Aarav Sharma clocked in",
+      "description": "Engineering shift started on time.",
+      "category": "arrival",
+      "severity": "normal"
+    },
+    {
+      "id": "tl-4",
+      "time": "09:20 AM",
+      "title": "Priya Patel clocked in",
+      "description": "Design team active on sprint boards.",
+      "category": "arrival",
+      "severity": "normal"
+    },
+    {
+      "id": "tl-5",
+      "time": "10:00 AM",
+      "title": "Leave application submitted",
+      "description": "Ananya submitted request for SHRM Global HR Summit.",
+      "category": "leave",
+      "severity": "attention"
+    },
+    {
+      "id": "tl-6",
+      "time": "10:30 AM",
+      "title": "Workforce pulse check: 80% on-duty",
+      "description": "System health verified with 4 active working sessions.",
+      "category": "milestone",
+      "severity": "positive"
+    }
+  ],
+  "lastIds": {
+    "users": 6,
+    "employees": 6,
+    "attendance": 55,
+    "leaves": 5,
+    "payroll": 6
+  }
+}

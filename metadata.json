@@ -1,0 +1,6 @@
+{
+  "name": "Dayflow HRMS",
+  "description": "Dayflow — Human Resource Management System & Workforce Operating System ('Every workday, perfectly aligned.')",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
